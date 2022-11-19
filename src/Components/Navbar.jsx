@@ -27,7 +27,7 @@ color:#6c5ce7;
 const BtnDiv = styled.div`
 width:37%;
 height:90%;
-border:1px solid red;
+// border:1px solid red;
 display:flex;
 align-items: center;
 // justify-content: space-between;
