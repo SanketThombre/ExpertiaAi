@@ -4,27 +4,27 @@
 #Main{
     width: 100%;
     height:600px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
 }
 
 .box1{
     
     flex: 0.8;
-    border: 1px solid red;
+    /* border: 1px solid red; */
    position: relative;
 
 }
 .box2{
     
     flex: 1;
-    border: 1px solid red;
+    /* border: 1px solid red; */
      position: relative;
 }
 
 .typewriterBox{
     position: absolute;
-    border: 1px solid;
+    /* border: 1px solid; */
     text-align:left;
     top:25%;
     left:20%;
@@ -155,3 +155,17 @@ color: #6c5ce7;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+.companies{
+    width: 85%;
+    height:250px;
+    border: 1px solid;
+    margin: 20px auto;
+}
+
+.elements{
+   display:flex;
+   flex-wrap: wrap; 
+   gap: 20px;
+   padding:10px;
+   margin-top: 35px;
+}

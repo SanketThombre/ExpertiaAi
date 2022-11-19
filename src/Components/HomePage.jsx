@@ -44,6 +44,66 @@ export const HomePage = () => {
                     </div>
                 </div>
             </div>
+
+            <div className="companies">
+                <h1 style={{ fontSize: " 2.2rem", fontWeight: "700" }}>Helping Businesses Grow</h1>
+                <div className="elements">
+                    <div style={{width:"120px",height:"50px" }}>
+                        <img src="https://www.expertia.ai/logosSocial/piggy.png" alt="" width="100%"height="100%"/>
+                    </div>
+                     <div style={{width:"120px",height:"50px" }}>
+                        <img src="	https://www.expertia.ai/logosSocial/akvina.png" alt="" width="100%"height="100%"/>
+                    </div>
+                     <div style={{width:"120px",height:"50px" }}>
+                        <img src="	https://www.expertia.ai/logosSocial/zluri.png" alt="" width="100%"height="100%"/>
+                    </div>
+                     <div style={{width:"120px",height:"50px" }}>
+                        <img src="	https://www.expertia.ai/logosSocial/koovs.png" alt="" width="100%"height="100%"/>
+                    </div>
+                     <div style={{width:"120px",height:"50px" }}>
+                        <img src="	https://www.expertia.ai/pokkt_logo.svg" alt="" width="100%"height="100%"/>
+                    </div>
+                     <div style={{width:"120px",height:"50px" }}>
+                        <img src="https://www.expertia.ai/logosSocial/tuorem.png" alt="" width="100%"height="100%"/>
+                    </div>
+                     <div style={{width:"120px",height:"50px" }}>
+                        <img src="	https://www.expertia.ai/logosSocial/limechat-logo.png" alt="" width="100%"height="100%"/>
+                    </div>
+                     <div style={{width:"120px",height:"50px" }}>
+                        <img src="	https://www.expertia.ai/logosSocial/byjus.png" alt="" width="100%"height="100%"/>
+                    </div>
+                     <div style={{width:"120px",height:"50px" }}>
+                        <img src="https://www.expertia.ai/logosSocial/ninjacart.png" alt="" width="100%"height="100%"/>
+                    </div>
+                     <div style={{width:"120px",height:"50px" }}>
+                        <img src="https://www.expertia.ai/logosSocial/unisoninternationsal.png" alt="" width="100%"height="100%"/>
+                    </div>
+                     <div style={{width:"120px",height:"50px" }}>
+                        <img src="	https://www.expertia.ai/logosSocial/spicaworks.png" alt="" width="100%"height="100%"/>
+                    </div>
+                     <div style={{width:"120px",height:"50px" }}>
+                        <img src="https://www.expertia.ai/logosSocial/optiwise.png" alt="" width="100%"height="100%"/>
+                    </div>
+                     <div style={{width:"120px",height:"50px" }}>
+                        <img src="	https://www.expertia.ai/logosSocial/byjuslogo.png" alt="" width="100%"height="100%"/>
+                    </div>
+                     <div style={{width:"120px",height:"50px" }}>
+                        <img src="https://www.expertia.ai/logosSocial/fello.png" alt="" width="100%"height="100%"/>
+                    </div>
+                     <div style={{width:"120px",height:"50px" }}>
+                        <img src="https://www.expertia.ai/logosSocial/paytmlogo.png" alt="" width="100%"height="100%"/>
+                    </div>
+                     <div style={{width:"120px",height:"50px" }}>
+                        <img src="https://www.expertia.ai/logosSocial/ranstad%20blue%20logoWOno.png" alt="" width="100%"height="100%"/>
+                    </div>
+                     <div style={{width:"120px",height:"50px" }}>
+                        <img src="	https://www.expertia.ai/logosSocial/NeuroPixel%20Logo.png" alt="" width="100%"height="100%"/>
+                    </div>
+                     <div style={{width:"120px",height:"50px" }}>
+                        <img src="	https://www.expertia.ai/logosSocial/xcelero.png" alt="" width="100%"height="100%"/>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }
