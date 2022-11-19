@@ -207,11 +207,40 @@ export const HomePage = () => {
             </div>
 
 
-            <div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+            <div className="secureDiv">
+                <div className="div1">
+                    <Icon style={{fontSize:"35px"}} name="lock" />
+                    <p style={{fontSize:"18px"}}>Security</p>
+                    <p style={{fontSize:"18px"}}>Your data is always yours<br/> and you have full control <br/> on its access and usage!</p>
+                </div>
+                <div className="div2">
+                    <Icon style={{fontSize:"35px"}} name="privacy" />
+                    <p style={{fontSize:"18px"}}>Privacy</p>
+                    <p style={{fontSize:"18px"}}>We value your privacy<br/> very highly and its<br/> transparency is built into <br/>Expertia from day 1.</p>
+                
+                </div>
+                <div className="div1">
+                    <Icon style={{fontSize:"35px"}} name="clock outline" />
+                    <p style={{fontSize:"18px"}}>Time</p>
+                    <p style={{fontSize:"18px"}}>Expertia reduces hiring <br/>time from weeks to 24-48<br/> hours ; with the goal to<br/> make it Realtime!</p>
+                
+                </div>
+                <div className="div2">
+                    <Icon style={{fontSize:"35px"}} name="dollar sign" />
+                    <p style={{fontSize:"18px"}}>Cost</p>
+                    <p style={{fontSize:"18px"}}>You save over 85% of the<br/> cost and in 10% of the<br/> time taken compared to<br/> traditional methods!</p>
+                
+                </div>
+            </div>
+
+            <div className="hire">
+
+                <div>
+                    <h1 style={{fontSize:"30px"}}>Hire like an Expert</h1>
+                    <p style={{fontSize:"20px"}}>Get started for free and find out how you can resolve your hiring challenges at your fingertips.</p>
+                    <button className="accessBtn" style={{marginLeft:"330px"}}>Get Started</button>
+                </div>
+                
             </div>
         </>
     )

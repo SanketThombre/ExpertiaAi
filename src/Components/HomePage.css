@@ -303,3 +303,60 @@ position: absolute;
     /* border: 1px solid gray; */
     height: 300px;
 }
+
+.secureDiv{
+    width:70%;
+    height:250px;
+    /* border:1px solid gray; */
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+   gap: 25px;
+   padding:15px;
+   
+
+}
+.div1{
+    flex: 1;
+    height: 100%;
+    /* border:1px solid green; */
+    padding:15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.div1:hover{
+     background-color:white;
+color: #6c5ce7;
+}
+.div2{
+   
+    flex: 1;
+    height: 100%;
+    /* border:1px solid green; */
+     padding:15px;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     margin-top:25px;
+}
+.div2:hover{
+     background-color:white;
+color: #6c5ce7;
+
+}
+
+.hire{
+    width:80%;
+    height: 300px;
+    /* border: 1px solid; */
+    margin: auto;
+    border-radius:15px;
+    background-color:whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hire div{
+    width: 70%;
+    height:100px;
+    
+}
