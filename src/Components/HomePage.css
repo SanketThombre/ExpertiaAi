@@ -20,3 +20,22 @@
     flex: 1;
     border: 1px solid red;
 }
+
+.typewriterBox{
+    position: absolute;
+    border: 1px solid;
+    text-align:left;
+    top:25%;
+    left:20%;
+}
+
+.VideoDiv{
+    display:flex;
+    align-items: center;
+    gap:15px;
+    margin-top: 35px;
+}
+
+.accessBtn{
+
+}
