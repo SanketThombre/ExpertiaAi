@@ -287,3 +287,19 @@ position: absolute;
     border-radius: 10px;
     font-size: 18px;
 }
+
+.WhatMoreContainer{
+    width: 75%;
+    margin: auto;
+    /* border: 1px solid; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:20px;
+    padding:20px;
+
+}
+
+.WhatMoreContainer div{
+    /* border: 1px solid gray; */
+    height: 300px;
+}

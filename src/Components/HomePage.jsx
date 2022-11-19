@@ -129,7 +129,7 @@ export const HomePage = () => {
 
              <div className="jobCareer">
                 <div className="gifDiv">
-                    <img src="https://cdn.dribbble.com/users/1998175/screenshots/6239769/dribbble.gif" alt="" width="100%" height="100%"/>
+                    <img src="http://delphiniumsw.com/wp-content/uploads/2021/07/webdesigngif.gif" alt="" width="100%" height="100%"/>
                 </div>
                 <div className="jobInfo">
                     <h2 className="title">AI SKILL CLOUD</h2>
@@ -171,8 +171,46 @@ export const HomePage = () => {
                 
             </div>/
 
-            <h1>What's More</h1>
+            <h1 style={{fontSize:"40px"}}>What's More</h1>
+            <div className="WhatMoreContainer">
+
+                <div>
+                    <img src="https://www.expertia.ai/GIfs/icons8-document.gif" alt="" width="20%" height="23%" />
+                    <p style={{fontSize:"20px",marginTop:"15px"}}>Use our Auto Job <br/>Description tool to <br/>create a custom job<br/> description for your <br/>company</p>
+                </div>
+                <div>
+                     <img src="	https://www.expertia.ai/GIfs/icons8-done.gif" alt="" width="20%" height="23%" />
+                    <p style={{fontSize:"20px",marginTop:"15px"}}>Use our Auto Job <br/>Description tool to <br/>create a custom job<br/> description for your <br/>company</p>
+                
+                </div>
+                <div>
+                     <img src="https://www.expertia.ai/GIfs/icons8-mind-map.gif" alt="" width="20%" height="23%" />
+                    <p style={{fontSize:"20px",marginTop:"15px"}}>Use our Auto Job <br/>Description tool to <br/>create a custom job<br/> description for your <br/>company</p>
+                
+                </div>
+                <div>
+                     <img src="	https://www.expertia.ai/GIfs/icons8-search%20(1).gif" alt="" width="20%" height="23%" />
+                    <p style={{fontSize:"20px",marginTop:"15px"}}>Use our Auto Job <br/>Description tool to <br/>create a custom job<br/> description for your <br/>company</p>
+                
+                </div>
+                <div>
+                     <img src="	https://www.expertia.ai/GIfs/icons8-omnichannel.gif" alt="" width="20%" height="23%" />
+                    <p style={{fontSize:"20px",marginTop:"15px"}}>Use our Auto Job <br/>Description tool to <br/>create a custom job<br/> description for your <br/>company</p>
+                
+                </div>
+                <div>
+                     <img src="	https://www.expertia.ai/GIfs/icons8-share.gif" alt="" width="20%" height="23%" />
+                    <p style={{fontSize:"20px",marginTop:"15px"}}>Use our Auto Job <br/>Description tool to <br/>create a custom job<br/> description for your <br/>company</p>
+                
+                </div>
+                
+            </div>
+
+
             <div>
+                <div></div>
+                <div></div>
+                <div></div>
                 <div></div>
             </div>
         </>
