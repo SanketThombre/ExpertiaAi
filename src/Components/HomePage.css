@@ -207,3 +207,83 @@ gap: 40px;
 .description{
     font-size:22px;
 }
+
+.onDemand{
+    width:70%;
+    height:280px;
+    /* border: 1px solid; */
+    margin:auto;
+    border-radius:20px;
+    display:flex;
+    align-items:center;
+    padding: 0px 30px;
+    background-color:whitesmoke;
+}
+
+.Box1{
+flex: 0.7;
+height: 80%;
+/* border: 1px solid red; */
+text-align: left;
+}
+
+.Box2{
+   flex: 1;
+   height: 100%;
+    /* border: 1px solid red;  */
+    position: relative;
+}
+
+.newBtn{
+    padding: 8px;
+    border-radius: 20px;
+    width:60px;
+    font-size:15px;
+    font-weight:700;
+    border:none;
+    background-color:#f0880d;
+    color:white;
+}
+
+.blackBox{
+    position:absolute;
+    width:50%;
+    height:50%;
+    border: 1px solid;
+    top:30%;
+    left:25%;
+    border-radius:10px;
+    background-color:black;
+}
+.save{
+position: absolute;
+    top:45%;
+    width: 270px;
+    height: 60px;
+    border: 2px solid #ffb962;
+    color:#ffb962;
+    background-color:#fff1e1;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap:3px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.action{
+    position: absolute;
+    top:38%;
+    right:5%;
+    width: 270px;
+    height: 60px;
+    border: 2px solid #ffb962;
+    color:#ffb962;
+    background-color:#fff1e1;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap:3px;
+    border-radius: 10px;
+    font-size: 18px;
+}

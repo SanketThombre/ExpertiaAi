@@ -137,6 +137,44 @@ export const HomePage = () => {
                     <p className="description">In one-click create and post your jobs on your <br/>career page and over 25+ Job boards and <br/>automate your entire application process building <br/>an intuitive cloud based talent pool.</p>
                 </div>
             </div>
+
+            <div className="onDemand">
+
+                <div className="Box1">
+                    <button className="newBtn">NEW</button>
+                    <h1>On-Demand <br/><span style={{color:"#6c5ce7"}}>Technical</span> Of Interview</h1>
+                    <p style={{fontSize:"16px",fontWeight:"500"}}>Get the best, hire faster</p>
+                    <button style={{
+                        height: "40px",
+                        width: "100px",
+                        fontSize: "15px",
+                        fontWeight: "700",
+                         backgroundColor:"#6c5ce7",
+                        color: "white",
+                        border: "none",
+                            borderRadius: "5px",
+                    }}>Get Started</button>
+                </div>
+                <div className="Box2">
+                    <div className="blackBox"></div>
+                    <div className="save">
+                        <Icon name="chevron left" />
+                        <Icon name="chevron right" />
+                        Save 1000s Of Hours By <br/>Using Expertia AI
+                    </div>
+                    <div className="action">
+                         <Icon name="thumbs up outline" />
+                        <Icon name="thumbs down outline" />
+                       Actionable Decisions<br/> available immediately!
+                    </div>
+                </div>
+                
+            </div>/
+
+            <h1>What's More</h1>
+            <div>
+                <div></div>
+            </div>
         </>
     )
 }
