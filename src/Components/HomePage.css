@@ -19,6 +19,7 @@
     
     flex: 1;
     border: 1px solid red;
+     position: relative;
 }
 
 .typewriterBox{
@@ -34,8 +35,71 @@
     align-items: center;
     gap:15px;
     margin-top: 35px;
+    cursor: pointer;
+    
 }
 
 .accessBtn{
+ height:50px;
+    width: 200px;
+    font-size: 18px;
+    font-weight: bold;
+   display: flex;
+   align-items: center;
+   gap: 5px;
+   justify-content: center;
+border-radius:10px;
+border: 2px solid #6c5ce7;
+background-color:#6c5ce7;
+color: white;
+cursor: pointer;
+}
+
+.accessBtn:hover{
+     background-color:white;
+color: #6c5ce7;
+}
+
+.careerPathDiv{
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    top: 10%;
+    left: 10%;
 
 }
+
+.premiumBoardDiv{
+    position: absolute;
+    width: 25%;
+    height:28px;
+    border-radius:50px;
+    border:1px solid rgb(92, 92, 44);
+    background-color:white;
+color: #6c5ce7;
+display: flex;
+align-items: center;
+justify-content: center;
+top:52%;
+font-size:15px;
+font-weight: 500;
+ gap: 5px;
+}
+
+.screeningDiv{
+     position: absolute;
+    width: 18%;
+    height:28px;
+    border-radius:50px;
+    border:1px solid rgb(92, 92, 44);
+    background-color:white;
+    color: #6c5ce7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top:66%;
+    font-size:15px;
+    font-weight: 500;
+    gap: 5px;
+}
+
