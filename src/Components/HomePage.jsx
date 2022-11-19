@@ -35,8 +35,13 @@ export const HomePage = () => {
 
                     <div className="premiumBoardDiv"> <Icon name="check"/> 50+ Premium Job Boards</div>
                     <div className="screeningDiv"><Icon name="check"/> AI Screening</div>
-                    <div className="automatedDiv">Automated Career Page</div>
-                     <div className="professionals">100k+ Professionals</div>
+                    <div className="automatedDiv"><Icon name="check"/> Automated Career Page</div>
+                    <div className="professionals"><Icon name="check" /> 100k+ Professionals</div>
+                    
+                    <div className="speedo">
+                        <img src="https://www.expertia.ai/speedo.png" alt="speedo img" width="100%" height="70%"/>
+                        <h4 style={{margin:"0"}}>Expertia Score</h4>
+                    </div>
                 </div>
             </div>
         </>
