@@ -48,60 +48,93 @@ export const HomePage = () => {
             <div className="companies">
                 <h1 style={{ fontSize: " 2.2rem", fontWeight: "700" }}>Helping Businesses Grow</h1>
                 <div className="elements">
-                    <div style={{width:"120px",height:"50px" }}>
+                    <div style={{width:"120px",height:"40px" }}>
                         <img src="https://www.expertia.ai/logosSocial/piggy.png" alt="" width="100%"height="100%"/>
                     </div>
-                     <div style={{width:"120px",height:"50px" }}>
+                     <div style={{width:"120px",height:"40px" }}>
                         <img src="	https://www.expertia.ai/logosSocial/akvina.png" alt="" width="100%"height="100%"/>
                     </div>
-                     <div style={{width:"120px",height:"50px" }}>
+                     <div style={{width:"120px",height:"40px" }}>
                         <img src="	https://www.expertia.ai/logosSocial/zluri.png" alt="" width="100%"height="100%"/>
                     </div>
-                     <div style={{width:"120px",height:"50px" }}>
+                     <div style={{width:"120px",height:"40px" }}>
                         <img src="	https://www.expertia.ai/logosSocial/koovs.png" alt="" width="100%"height="100%"/>
                     </div>
-                     <div style={{width:"120px",height:"50px" }}>
+                     <div style={{width:"120px",height:"40px" }}>
                         <img src="	https://www.expertia.ai/pokkt_logo.svg" alt="" width="100%"height="100%"/>
                     </div>
-                     <div style={{width:"120px",height:"50px" }}>
+                     <div style={{width:"120px",height:"40px" }}>
                         <img src="https://www.expertia.ai/logosSocial/tuorem.png" alt="" width="100%"height="100%"/>
                     </div>
-                     <div style={{width:"120px",height:"50px" }}>
+                     <div style={{width:"120px",height:"40px" }}>
                         <img src="	https://www.expertia.ai/logosSocial/limechat-logo.png" alt="" width="100%"height="100%"/>
                     </div>
-                     <div style={{width:"120px",height:"50px" }}>
+                     <div style={{width:"120px",height:"40px" }}>
                         <img src="	https://www.expertia.ai/logosSocial/byjus.png" alt="" width="100%"height="100%"/>
                     </div>
-                     <div style={{width:"120px",height:"50px" }}>
+                     <div style={{width:"120px",height:"40px" }}>
                         <img src="https://www.expertia.ai/logosSocial/ninjacart.png" alt="" width="100%"height="100%"/>
                     </div>
-                     <div style={{width:"120px",height:"50px" }}>
+                     <div style={{width:"120px",height:"40px" }}>
                         <img src="https://www.expertia.ai/logosSocial/unisoninternationsal.png" alt="" width="100%"height="100%"/>
                     </div>
-                     <div style={{width:"120px",height:"50px" }}>
+                     <div style={{width:"120px",height:"40px" }}>
                         <img src="	https://www.expertia.ai/logosSocial/spicaworks.png" alt="" width="100%"height="100%"/>
                     </div>
-                     <div style={{width:"120px",height:"50px" }}>
+                     <div style={{width:"120px",height:"40px" }}>
                         <img src="https://www.expertia.ai/logosSocial/optiwise.png" alt="" width="100%"height="100%"/>
                     </div>
-                     <div style={{width:"120px",height:"50px" }}>
+                     <div style={{width:"120px",height:"40px" }}>
                         <img src="	https://www.expertia.ai/logosSocial/byjuslogo.png" alt="" width="100%"height="100%"/>
                     </div>
-                     <div style={{width:"120px",height:"50px" }}>
+                     <div style={{width:"120px",height:"40px" }}>
                         <img src="https://www.expertia.ai/logosSocial/fello.png" alt="" width="100%"height="100%"/>
                     </div>
-                     <div style={{width:"120px",height:"50px" }}>
+                     <div style={{width:"120px",height:"40px" }}>
                         <img src="https://www.expertia.ai/logosSocial/paytmlogo.png" alt="" width="100%"height="100%"/>
                     </div>
-                     <div style={{width:"120px",height:"50px" }}>
+                     <div style={{width:"120px",height:"40px" }}>
                         <img src="https://www.expertia.ai/logosSocial/ranstad%20blue%20logoWOno.png" alt="" width="100%"height="100%"/>
                     </div>
-                     <div style={{width:"120px",height:"50px" }}>
+                     <div style={{width:"120px",height:"40px" }}>
                         <img src="	https://www.expertia.ai/logosSocial/NeuroPixel%20Logo.png" alt="" width="100%"height="100%"/>
                     </div>
-                     <div style={{width:"120px",height:"50px" }}>
+                     <div style={{width:"120px",height:"40px" }}>
                         <img src="	https://www.expertia.ai/logosSocial/xcelero.png" alt="" width="100%"height="100%"/>
                     </div>
+                </div>
+            </div>
+
+            <div className="jobCareer">
+                <div className="gifDiv">
+                    <img src="https://cdn.dribbble.com/users/1998175/screenshots/6239769/dribbble.gif" alt="" width="100%" height="100%"/>
+                </div>
+                <div className="jobInfo">
+                    <h2 className="title">AI CAREER PAGE</h2>
+                    <h1 className="heading">Power your Career Page with <br/>Expertia’s AI Intelligence.</h1>
+                    <p className="description">In one-click create and post your jobs on your <br/>career page and over 25+ Job boards and <br/>automate your entire application process building <br/>an intuitive cloud based talent pool.</p>
+                </div>
+            </div>
+             <div className="jobCareer">
+               
+                <div className="jobInfo">
+                    <h2 className="title">AI TALENT ADVISOR</h2>
+                    <h1 className="heading">Screen and Identify your<br/>Professionals</h1>
+                    <p className="description">In one-click create and post your jobs on your <br/>career page and over 25+ Job boards and <br/>automate your entire application process building <br/>an intuitive cloud based talent pool.</p>
+                </div>
+                 <div className="gifDiv">
+                    <img src="https://arthurgrand.com/wp-content/uploads/2022/03/submit-resume.gif" alt="" width="100%" height="100%"/>
+                </div>
+            </div>
+
+             <div className="jobCareer">
+                <div className="gifDiv">
+                    <img src="https://cdn.dribbble.com/users/1998175/screenshots/6239769/dribbble.gif" alt="" width="100%" height="100%"/>
+                </div>
+                <div className="jobInfo">
+                    <h2 className="title">AI SKILL CLOUD</h2>
+                    <h1 className="heading">Unified Hyperprofiles, Search and<br/> Manage your Talent</h1>
+                    <p className="description">In one-click create and post your jobs on your <br/>career page and over 25+ Job boards and <br/>automate your entire application process building <br/>an intuitive cloud based talent pool.</p>
                 </div>
             </div>
         </>
