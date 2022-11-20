@@ -14,6 +14,33 @@
     position: relative;
 
 }
+.linkOfCompanySocialMedia{
+    display: flex;
+align-items: center;
+gap: 8px;
+margin: 20px 40px;
+font-size:18px;
+}
+
+.websiteVisit{
+    position: absolute;
+    width:30%;
+    height:40%;
+    /* border: 1px solid; */
+right: 2%;
+top: 10%;
+}
+
+.visitBtn{
+    width:60%;
+    height: 45px;
+    border: 3px solid #6579ad;
+    border-radius:10px;
+    color: #4d629c;
+    font-size: 18px;
+    cursor: pointer;
+
+}
 
 .careerPage{
     width:70%;

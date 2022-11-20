@@ -19,6 +19,17 @@ export const CompanyCareerDetail = () => {
                 }}>
                     <img src="https://5.imimg.com/data5/QU/TN/OI/SELLER-29195959/technologies-120x120.png" alt="" />
                 </div>
+
+                <div className="websiteVisit">
+                    <button className="visitBtn">Visit Website</button>
+                     <div className="linkOfCompanySocialMedia">
+                                share via
+                                <img src="https://www.pngitem.com/pimgs/m/108-1086954_linkedin-logo-png-transparent-background-linkedin-logo-png.png" alt="" width="55px" height="35px"/>
+                                <img src="https://w7.pngwing.com/pngs/347/373/png-transparent-computer-icons-whatsapp-whatsapp-text-trademark-logo.png" alt="" width="40px" height="35px"/>
+                                <img src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-logo-vector-png-clipart-1.png" alt="" width="40px" height="35px"/>
+
+                            </div>
+                </div>
             </div>
             
             <div className="careerPage">
