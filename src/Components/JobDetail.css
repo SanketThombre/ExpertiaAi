@@ -78,3 +78,15 @@ gap: 8px;
 
 
 }
+
+.jobDescrip{
+    width: 70%;
+    height: 600px;
+    /* border: 1px solid; */
+    text-align: left;
+    margin: auto;
+margin-top:20px;
+padding:20px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}

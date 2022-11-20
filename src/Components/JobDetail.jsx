@@ -102,12 +102,13 @@ export const JobDetail = () => {
                             position: "absolute",
                             bottom: "5%",
                             right: "1%",
+                            cursor: "pointer",
 
                         }}>Visit Website <Icon name="external alternate" /></div>
                         
                          <div style={{ position: "absolute",
                             top: "10%",
-                            right: "1%",fontSize:"15px"}}><Icon name="flag"/></div>
+                            right: "1%",fontSize:"15px",cursor: "pointer",}}><Icon name="flag"/></div>
 
                     </div>
                    
@@ -118,6 +119,42 @@ export const JobDetail = () => {
 
             <div className="jobDescrip">
 
+                <h2>Job Description</h2>
+                <hr style={{ width: "100%", margin: "auto", color: "gray" }} />
+                
+                <div style={{
+                    marginTop: "15px",
+
+                }}>
+                    <button style={{marginLeft: "5px",padding:"5px 10px",backgroundColor:"#808080",color: "white",border:"none"}}>Sales</button>
+                    <button style={{marginLeft: "15px",padding:"5px 10px",backgroundColor:"#808080",color: "white",border:"none"}}>Marketing</button>
+                     <button style={{marginLeft: "15px",padding:"5px 10px",backgroundColor:"#808080",color: "white",border:"none"}}>Insurance</button>
+                </div>
+
+
+                <p style={{marginTop: "20px",fontSize:"18px"}}>The ideal candidate is a passionate, self-motivated, and detail-oriented team player who is committed to the success of our <br/>customers. You will focus on growing and developing existing clients, as well as generating new business by identifying,<br/> implementing and executing new strategies. </p>
+           
+                <h3>Responsibilities</h3>
+                
+                <ul style={{lineHeight: "25px",fontSize:"18px"}}>
+                    <li>Operate as the primary point of contact for key account stakeholders</li>
+                    <li>Develop a trusted advisory relationship with accounts, customer stakeholders and internal partners</li>
+                    <li>Prepare and guarantee monthly, quarterly and annual sales forecasts</li>
+                </ul>
+
+                <h3>Qualifications</h3>
+
+                <ul style={{lineHeight: "25px",fontSize:"18px"}}>
+                    <li>Bachelor's degree or equivalent experience in Business</li>
+                    <li>3+ years' of relevant work experience</li>
+                    <li>Fluency in Microsoft Office suite (Outlook, Excel, Word, PowerPoint, etc.)</li>
+                    <li>Excellent written and verbal communication skills</li>
+                </ul>
+
+            </div>
+
+            <div style={{marginTop: "15px"}}>
+                <img src="https://www.expertia.ai/PoweredByExpertia.png" alt="" width="10%" height="5%"/>
             </div>
         </>
     )
