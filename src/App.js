@@ -3,6 +3,7 @@ import './App.css';
 import { Navbar } from './Components/Navbar';
 import { Routes,Route } from 'react-router-dom';
 import { HomePage } from './Components/HomePage';
+import { Foooter } from './Components/Footer';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <HomePage/>
         } />
       </Routes>
+      <Foooter/>
     </div>
   );
 }

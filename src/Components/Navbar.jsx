@@ -14,6 +14,10 @@ display:flex;
 align-items:center;
 justify-content: center;
 gap:20px;
+position:sticky;
+top:0;
+z-index:2;
+
 `
 const ReadOnBtn = styled.button`
 padding: 10px 20px;
