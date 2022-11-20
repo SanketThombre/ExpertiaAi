@@ -111,7 +111,7 @@ export const JobDetail = () => {
                             right: "1%",
                             cursor: "pointer",
 
-                        }}>Visit Website <Icon name="external alternate" /></div>
+                        }}><Link to="/companydetail">Visit Website <Icon name="external alternate" /></Link></div>
                         
                          <div style={{ position: "absolute",
                             top: "10%",
