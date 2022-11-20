@@ -6,6 +6,7 @@ import { HomePage } from './Components/HomePage';
 import { Foooter } from './Components/Footer';
 import { Jobs } from './Components/Jobs';
 import { JobDetail } from './Components/JobDetail';
+import { CompanyCareerDetail } from './Components/CompanyCareerDetail';
 
 
 function App() {
@@ -23,6 +24,10 @@ function App() {
 
          <Route path="/jobdetails" element={ 
           <JobDetail/>
+        } />
+
+         <Route path="/companydetail" element={ 
+          <CompanyCareerDetail/>
         } />
       </Routes>
       <Foooter />

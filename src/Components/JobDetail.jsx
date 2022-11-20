@@ -1,6 +1,8 @@
 
 import "./JobDetail.css";
-import {Icon} from "semantic-ui-react";
+import { Icon } from "semantic-ui-react";
+import {Link} from "react-router-dom";
+import ResumeUploadPopup from "./ResumeUploadPopup";
 
 export const JobDetail = () => {
     return (
@@ -13,7 +15,10 @@ export const JobDetail = () => {
 
                 <div className="companylogoAndInfo">
                     <div className="companyLogo">
+                        <Link to="/companydetail">
+
                         <img src="https://5.imimg.com/data5/QU/TN/OI/SELLER-29195959/technologies-120x120.png" alt="" width="100%" height="100%"/>
+                    </Link>
                     </div>
                     <div className="companyInfo">
                         <p style={{fontSize:"18px",margin:"0",marginBottom:"10px"}}>Windzard Technologies</p>
@@ -87,7 +92,9 @@ export const JobDetail = () => {
                         </div>
                         
                         <div className="applyDiv">
-                            <button className="applyBtn">Apply Now</button>
+                            {/* <button className="applyBtn">Apply Now</button> */}
+                            <ResumeUploadPopup/>
+                    
                             <div style={{width: "0.4%",height: "100%",backgroundColor:"lightgray"}}></div>
                             <div className="linkOfCompanySocialMedia">
                                 share via
