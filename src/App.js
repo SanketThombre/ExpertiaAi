@@ -4,6 +4,8 @@ import { Navbar } from './Components/Navbar';
 import { Routes,Route } from 'react-router-dom';
 import { HomePage } from './Components/HomePage';
 import { Foooter } from './Components/Footer';
+import { Jobs } from './Components/Jobs';
+import { JobDetail } from './Components/JobDetail';
 
 
 function App() {
@@ -14,6 +16,13 @@ function App() {
       <Routes>
         <Route path="/" element={ 
           <HomePage/>
+        } />
+        <Route path="/jobs" element={ 
+          <Jobs/>
+        } />
+
+         <Route path="/jobdetails" element={ 
+          <JobDetail/>
         } />
       </Routes>
       <Foooter/>

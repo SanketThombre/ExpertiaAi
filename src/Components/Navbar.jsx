@@ -1,7 +1,7 @@
 
 import "./Navbar.css";
 import styled from "styled-components";
-
+import {Link} from "react-router-dom";
 
 
 const FundingDiv = styled.div`
@@ -49,10 +49,10 @@ export const Navbar = () => {
             </FundingDiv>
             
             <div id="NavMenu">
-                <img class="companylogo" src="https://www.expertia.ai/expertiaLogotext.png" alt="Company logo" width="11%" height="52%"/>
+                <Link class="companylogo" to="/"><img  src="https://www.expertia.ai/expertiaLogotext.png" alt="Company logo" width="60%" height="50%"/></Link>
                 <BtnDiv>
                     <button class="NavBtn">Request a demo</button>
-                    <button class="NavBtn">Jobs</button>
+                   <button class="NavBtn"> <Link style={{ textDecorationLine: "none" ,color: "black" }} to="/jobs">Jobs</Link></button>
                     <button class="NavBtn">Login</button>
                     <button class="GetStartBtn">Get Started</button>
                 </BtnDiv>
