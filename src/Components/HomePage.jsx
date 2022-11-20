@@ -8,6 +8,7 @@ import {Icon} from "semantic-ui-react";
 export const HomePage = () => {
     return (
         <>
+            
             <div id="Main">
                 <div className="box1">
                     <div className="typewriterBox">

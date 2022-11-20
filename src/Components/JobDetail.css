@@ -1,0 +1,80 @@
+#CompanyDetail{
+    width: 70%;
+    height:300px;
+    /* border: 1px solid; */
+    margin:auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.currentStatus{
+    width: 100%;
+    height: 8%;
+    background-color: #21ba45;
+    text-align: left;
+    padding:0px 10px;
+    color: white;
+    font-weight: 700;
+}
+
+.companylogoAndInfo{
+    width: 100%;
+    height: 92%;
+    /* border: 1px solid red; */
+    display:flex;
+    align-items: center;
+    gap: 25px;
+    padding: 20px;
+}
+
+.companyLogo{
+flex: 0.2;
+height: 60%;
+/* border: 1px solid; */
+}
+
+.companyInfo{
+
+    flex: 1;
+height: 100%;
+/* border: 1px solid; */
+text-align: left;
+position: relative;
+
+}
+
+.companyInfo h1{
+    margin: 0;
+
+}
+
+.applyDiv{
+    width:50%;
+    height:20%;
+    /* border: 1px solid; */
+    margin-top:8px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.applyBtn{
+    width: 30%;
+    height:80%;
+    border: none;
+    border-radius:15px;
+    font-size:18px;
+    font-weight:600;
+    background-color:#6c5ce7;
+color: white;
+cursor: pointer;
+
+}
+
+.linkOfCompanySocialMedia{
+    display: flex;
+align-items: center;
+gap: 8px;
+
+
+}

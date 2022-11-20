@@ -52,7 +52,7 @@ export const Navbar = () => {
                 <Link class="companylogo" to="/"><img  src="https://www.expertia.ai/expertiaLogotext.png" alt="Company logo" width="60%" height="50%"/></Link>
                 <BtnDiv>
                     <button class="NavBtn">Request a demo</button>
-                   <button class="NavBtn"> <Link style={{ textDecorationLine: "none" ,color: "black" }} to="/jobs">Jobs</Link></button>
+                   <Link class="NavBtn" style={{ textDecorationLine: "none" ,color: "black" }} to="/jobs"><button class="NavBtn">Jobs</button></Link>
                     <button class="NavBtn">Login</button>
                     <button class="GetStartBtn">Get Started</button>
                 </BtnDiv>

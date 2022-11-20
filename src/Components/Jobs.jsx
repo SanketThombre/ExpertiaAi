@@ -48,7 +48,10 @@ export const Jobs = () => {
                             border: "1px solid #61c1a0",
                             borderRadius: "5px",
                             color: "#61c1a0",
-                            backgroundColor:"#f6ffed",
+                                backgroundColor: "#f6ffed",
+                             display: "flex",
+                                alignItems: "center",
+                            justifyContent: "center",
 
                         }}>
 
@@ -60,7 +63,10 @@ export const Jobs = () => {
                             border: "1px solid #f5bf77",
                             borderRadius: "5px",
                             color: "#f5bf77",
-                             backgroundColor:"#fff7e6",
+                                backgroundColor: "#fff7e6",
+                              display: "flex",
+                                alignItems: "center",
+                            justifyContent: "center",
                              
                         }}>Chennai</div>
                     </div>
@@ -72,7 +78,10 @@ export const Jobs = () => {
                          borderRadius: "5px",
                             color: "#25a6ed",
                         backgroundColor: "#e6f7ff",
-                             marginTop: "15px",
+                            marginTop: "15px",
+                              display: "flex",
+                                alignItems: "center",
+                            justifyContent: "center",
                     }}>Full Time</div>
 
                     <div style={{
@@ -80,7 +89,10 @@ export const Jobs = () => {
                         height: "25px",
                         border: "1px solid gray",
                         borderRadius: "5px",
-                         marginTop: "15px",
+                            marginTop: "15px",
+                          display: "flex",
+                                alignItems: "center",
+                            justifyContent: "center",
                         }}>Rs. 100000 INR - Rs. 1280000 INR (PA)</div>
                         </Link>
                     </div>
@@ -109,7 +121,10 @@ export const Jobs = () => {
                             border: "1px solid #61c1a0",
                             borderRadius: "5px",
                             color: "#61c1a0",
-                            backgroundColor:"#f6ffed",
+                                backgroundColor: "#f6ffed",
+                             display: "flex",
+                                alignItems: "center",
+                            justifyContent: "center",
 
                         }}>
 
@@ -121,7 +136,10 @@ export const Jobs = () => {
                             border: "1px solid #f5bf77",
                             borderRadius: "5px",
                             color: "#f5bf77",
-                             backgroundColor:"#fff7e6",
+                                backgroundColor: "#fff7e6",
+                              display: "flex",
+                                alignItems: "center",
+                            justifyContent: "center",
                              
                         }}>Chennai</div>
                     </div>
@@ -133,7 +151,10 @@ export const Jobs = () => {
                          borderRadius: "5px",
                             color: "#25a6ed",
                         backgroundColor: "#e6f7ff",
-                             marginTop: "15px",
+                            marginTop: "15px",
+                              display: "flex",
+                                alignItems: "center",
+                            justifyContent: "center",
                     }}>Full Time</div>
 
                     <div style={{
@@ -141,7 +162,10 @@ export const Jobs = () => {
                         height: "25px",
                         border: "1px solid gray",
                         borderRadius: "5px",
-                         marginTop: "15px",
+                            marginTop: "15px",
+                          display: "flex",
+                                alignItems: "center",
+                            justifyContent: "center",
                         }}>Rs. 100000 INR - Rs. 1280000 INR (PA)</div>
                         </Link>
                 </div>
@@ -170,7 +194,10 @@ export const Jobs = () => {
                             border: "1px solid #61c1a0",
                             borderRadius: "5px",
                             color: "#61c1a0",
-                            backgroundColor:"#f6ffed",
+                                backgroundColor: "#f6ffed",
+                                display: "flex",
+                                alignItems: "center",
+                            justifyContent: "center",
 
                         }}>
 
@@ -182,7 +209,10 @@ export const Jobs = () => {
                             border: "1px solid #f5bf77",
                             borderRadius: "5px",
                             color: "#f5bf77",
-                             backgroundColor:"#fff7e6",
+                                backgroundColor: "#fff7e6",
+                              display: "flex",
+                                alignItems: "center",
+                            justifyContent: "center",
                              
                         }}>Chennai</div>
                     </div>
@@ -194,7 +224,10 @@ export const Jobs = () => {
                          borderRadius: "5px",
                             color: "#25a6ed",
                         backgroundColor: "#e6f7ff",
-                             marginTop: "15px",
+                            marginTop: "15px",
+                              display: "flex",
+                                alignItems: "center",
+                            justifyContent: "center",
                     }}>Full Time</div>
 
                     <div style={{
@@ -202,7 +235,10 @@ export const Jobs = () => {
                         height: "25px",
                         border: "1px solid gray",
                         borderRadius: "5px",
-                         marginTop: "15px",
+                            marginTop: "15px",
+                          display: "flex",
+                                alignItems: "center",
+                            justifyContent: "center",
                         }}>Rs. 100000 INR - Rs. 1280000 INR (PA)</div>
                         
                         </Link>

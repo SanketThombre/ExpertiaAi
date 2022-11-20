@@ -25,7 +25,9 @@ function App() {
           <JobDetail/>
         } />
       </Routes>
-      <Foooter/>
+      <Foooter />
+      
+      
     </div>
   );
 }
